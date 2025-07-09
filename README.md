@@ -1,12 +1,12 @@
 # conf-database
 
-Database for conferences used by hci-deadlines website
+Database for conferences used by hci-deadlines-hhn website
 
 ## Contributing
 
 Contributions are very welcome!
 
-To keep things minimal, I'm only looking to list top-tier conferences in HCI as per [conferenceranks.com][6] and my judgement calls. Please feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
+This database includes conferences in HCI and related fields. You can refer to [conferenceranks.com][6] for conference rankings and quality assessments. Please feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
 
 To add or update a deadline:
 
