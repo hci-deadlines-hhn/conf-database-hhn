@@ -20,15 +20,15 @@ jobs:
       - name: run merge script
         run: bash ${PWD}/merge.sh
 
-      - name: Pushes to hci-deadlines
+      - name: Pushes to hci-deadlines-hhn
         uses: dmnemec/copy_file_to_another_repo_action@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.TOKEN }}
         with:
           source_file: 'conferences.yml'
           destination_branch: 'gh-pages'
-          destination_repo: 'hci-deadlines/hci-deadlines.github.io'
+          destination_repo: 'hci-deadlines-hhn/hci-deadlines-hhn.github.io'
           destination_folder: '_data'
-          user_email: 'andrea@kaist.ac.kr'
-          user_name: 'makinteract'
+          user_email: 'afi.89@outlook.com'
+          user_name: 'ahmad-alismail'
           commit_message: 'Updated conferences'
