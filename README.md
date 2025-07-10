@@ -6,14 +6,14 @@ Database for conferences used by hci-deadlines-hhn website
 
 Contributions are very welcome!
 
-This database includes conferences in HCI and related fields. You can refer to [conferenceranks.com][6] for conference rankings and quality assessments. Please feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
+This database includes conferences in HCI and related fields. You can refer to [conferenceranks.com](conferenceranks.com) for conference rankings and quality assessments. Please feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
 
 To add or update a deadline:
 
 1. Fork the repository
 2. Look inside the folder **conferences**. If the conference you want to add has a `yml` file, proceed to the next step. Otherwise, create a new file with the name of the conference. For example, if the conference name is `xyz`, then create the file `xyz.yml` inside the _conferences_ folder.
 3. Open the file of the conference you want to update. Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place` attributes.
-4. For the `sub` (subject) attribute, you must pick only among the following options. If you want to add a special category, open an [issue](https://github.com/hci-deadlines/conf-database/issues) and we will consider it.
+4. For the `sub` (subject) attribute, you must pick only among the following options. If you want to add a special category, open an [issue](https://github.com/hci-deadlines-hhn/conf-database-hhn/issues) and we will consider it.
 
    | `sub` category | Subject it corresponds to            |
    | -------------- | ------------------------------------ |
