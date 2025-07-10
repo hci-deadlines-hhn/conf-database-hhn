@@ -2,7 +2,7 @@ name: autogenerate-conferences
 
 on:
   push:
-    branches: ['main']
+    branches: [main]
 
 jobs:
   lint:
